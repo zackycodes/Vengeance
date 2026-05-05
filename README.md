@@ -4,11 +4,11 @@ A modular chess engine implemented in C++, Python that combines classic search a
 ## Core Features
 * __Search Engine__: Employs the Minimax algorithm with Alpha-Beta pruning to efficiently explore move trees
 * __Move Optimization__: Implements Move Ordering through the getOrderedMoves function, which prioritizes moves based on their potential to improve pruning efficiency
-*__Dynamic Evaluation__:
+* __Dynamic Evaluation__:
   * Calculates board state by combining material weights and Piece-Square Tables (PST)
   * Includes Endgame Detection (checkEndGame) that triggers specialized positioning logic for the King
 
-*__Flexible Interfaces__:
+* __Flexible Interfaces__:
   *__Interactive UI__: Play as White or Black in a terminal environment
   * __AI vs. AI Mode__: Watch the engine play against itself to test different search depths
   * __UCI-Style Communication__: A talk() function that allows for structured command processing and depth configuration
