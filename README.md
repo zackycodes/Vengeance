@@ -31,8 +31,8 @@ __ASCII Rendering__: Includes a render function to display the board state in a 
 Configuration;
 The default search depth is set to 3, but this can be adjusted via user input or environment variables (DEPTH) depending on the interface used
 
-* Standard Play: Run the compiled binary to enter the interactive start() loop, where you can select your side and input moves in standard notation
-* Command Mode: The engine can be initialized via the talk() function to receive direct string-based commands
+* __Standard Play__: Run the compiled binary to enter the interactive start() loop, where you can select your side and input moves in standard notation
+* __Command Mode__: The engine can be initialized via the talk() function to receive direct string-based commands
 
 ## Notes
 Have Fun!
